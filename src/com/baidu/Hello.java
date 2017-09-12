@@ -4,6 +4,7 @@ public class Hello {
     private String name;
     private Integer age;
     private String address;
+    private String hobby;
     public String getName() {
         return name;
     }
@@ -30,5 +31,8 @@ public class Hello {
 
     public void sayHello(){
         System.out.println(this.name + ",你好");
+    }
+    public void introduceHobby(){
+        System.out.println("我的爱好是" + this.hobby);
     }
 }
