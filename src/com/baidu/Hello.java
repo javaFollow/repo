@@ -3,6 +3,8 @@ package com.baidu;
 public class Hello {
     private String name;
     private Integer age;
+    private String address;
+    private String hobby;
     public String getName() {
         return name;
     }
@@ -19,10 +21,21 @@ public class Hello {
         this.name = name;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
     public void sayHello(){
         System.out.println(this.name + ",你好");
     }
     public void sayBye(){
         System.out.println("再见，" + this.name);
+    }
+    public void introduceHobby(){
+        System.out.println("我的爱好是" + this.hobby);
     }
 }
