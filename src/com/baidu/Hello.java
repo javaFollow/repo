@@ -22,4 +22,7 @@ public class Hello {
     public void sayHello(){
         System.out.println(this.name + ",你好");
     }
+    public void sayBye(){
+        System.out.println("再见，" + this.name);
+    }
 }
