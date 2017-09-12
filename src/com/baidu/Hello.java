@@ -1,7 +1,17 @@
 package com.baidu;
 
 public class Hello {
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public void sayHello(){
-        System.out.println("你好");
+        System.out.println(this.name + ",你好");
     }
 }
