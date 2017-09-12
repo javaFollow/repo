@@ -1,7 +1,7 @@
 package com.baidu;
 
 public class Hello {
-    private String name;
+    private String name1;
 
     public String getName() {
         return name;
