@@ -42,4 +42,7 @@ public class Hello {
     public void testMethod(){
         System.out.println("这是什么啊");
     }
+    public void testMethod2(){
+        System.out.println("就是这个呀");
+    }
 }
