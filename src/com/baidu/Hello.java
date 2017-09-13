@@ -6,6 +6,7 @@ public class Hello {
     private String address;
     private String hobby;
     public String getName() {
+        system.out.println("111");
         return name;
     }
 
