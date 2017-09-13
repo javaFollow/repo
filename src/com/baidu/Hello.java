@@ -43,6 +43,6 @@ public class Hello {
         System.out.println("这是什么啊");
     }
     public void testMethod2(){
-        System.out.println("就是这个呀2");
+        System.out.println("就是这个");
     }
 }
