@@ -39,4 +39,7 @@ public class Hello {
     public void introduceHobby(){
         System.out.println("我的爱好是" + this.hobby);
     }
+    public void testMethod(){
+        System.out.println("这是什么");
+    }
 }
