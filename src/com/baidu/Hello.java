@@ -46,5 +46,6 @@ public class Hello {
     public void testMethod2(){
         System.out.println("就是这个");
         System.out.println("就是这511");
+        System.out.println("就是这510");
     }
 }
