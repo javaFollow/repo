@@ -6,6 +6,7 @@ public class Hello {
     private String address;
     private String hobby;
     public String getName() {
+        System.out.println("111");
         return name;
     }
 
@@ -14,7 +15,7 @@ public class Hello {
     }
 
     public void setAge(Integer age) {
-        this.age = age + 122;
+        this.age = age + 1225;
     }
 
     public void setName(String name) {
