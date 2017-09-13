@@ -40,6 +40,9 @@ public class Hello {
         System.out.println("我的爱好是" + this.hobby);
     }
     public void testMethod(){
-        System.out.println("这是什么啊666");
+        System.out.println("这是什么啊");
+    }
+    public void testMethod2(){
+        System.out.println("就是这个呀");
     }
 }
